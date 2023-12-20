@@ -15,7 +15,7 @@ spec:
         app: flask-app
     spec:
       containers:
-      - image: eon01/stateless-flask:v0
+      - image: daredrexel/stateless-flask:v0
         name: flask-app
         ports:
         - containerPort: 5000
@@ -44,4 +44,4 @@ spec:
     targetPort: 5000
   selector:
     app: flask-app
-  type: LoadBalancer
+  type: NodePort
