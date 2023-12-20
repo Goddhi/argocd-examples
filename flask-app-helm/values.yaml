@@ -1,8 +1,8 @@
 replicaCount: 3
 
 image:
-  repository: daredrexel/stateless-flask:v0
-  tag: latest
+  repository: daredrexel/stateless-flask
+  tag: v0
 
 service:
   type: NodePort
